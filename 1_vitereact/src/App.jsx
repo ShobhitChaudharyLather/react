@@ -1,10 +1,10 @@
 import Chai from "./chai"
 function App() {
-
+  const username="(Basic React)"
   return (
     <>
     <Chai/>
-    <h3>fragments in react</h3>
+    <h3>fragments in react {username}</h3>
     </>
   )
 }
